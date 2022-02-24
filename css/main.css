@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #3967a2;
+  background: #ff20d1;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2196,7 +2196,7 @@ ul.breadcrumb li + li:last-child {
   border-radius: initial;
   box-shadow: initial;
   box-sizing: border-box;
-  padding: 40px;
+  padding: initial;
   width: calc(100% - 252px);
 }
 @media (max-width: 991px) {
@@ -2443,13 +2443,12 @@ body {
   font-size: 1em;
   line-height: 2;
 }
+.site-title {
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 1.375em;
+  font-weight: normal;
+  margin: 0;
+}
 .content {
   padding-top: 0px;
-}
-.post {
-  margin-top: 0px;
-  margin-bottom: 60px;
-  padding: 25px;
-  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
-  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
